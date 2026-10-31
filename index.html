@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green SynTech | Turning Waste Plastic into Chemicals with Solar Power</title>
+    <meta name="description" content="Green SynTech converts waste plastic into value-added chemicals using solar-powered catalytic pyrolysis. Based in Ontario, Canada.">
+    <link rel="icon" type="image/png" href="GST_logo_3.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-green': '#2e7d32',
+                        'brand-dark': '#0f2a1a',
+                        'brand-light': '#f1f8f2'
+                    }
+                }
+            }
+        };
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+        @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased">
+
+<!-- Navigation -->
+<nav class="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+        <a href="#home" class="flex items-center gap-2">
+            <img src="GST_logo_3.png" alt="Green SynTech logo" class="h-12 w-auto object-contain">
+            <span class="font-bold text-xl text-brand-dark">Green<span class="text-brand-green">SynTech</span></span>
+        </a>
+        <div class="hidden md:flex items-center gap-8 font-medium text-gray-600">
+            <a href="#mission" class="hover:text-brand-green transition-colors">Mission</a>
+            <a href="#technology" class="hover:text-brand-green transition-colors">Technology</a>
+            <a href="#team" class="hover:text-brand-green transition-colors">Team</a>
+            <a href="#contact" class="px-5 py-2 bg-brand-dark text-white rounded-lg hover:bg-black transition-colors">Contact</a>
+        </div>
+        <button id="menuBtn" type="button" class="md:hidden w-10 h-10 flex items-center justify-center text-brand-dark" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+            <i class="fa-solid fa-bars text-xl"></i>
+        </button>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden border-t border-gray-100 bg-white px-4 py-4 space-y-3 font-medium text-gray-700">
+        <a href="#mission" class="block">Mission</a>
+        <a href="#technology" class="block">Technology</a>
+        <a href="#team" class="block">Team</a>
+        <a href="#contact" class="block">Contact</a>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="pt-40 pb-24 bg-brand-light">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl sm:text-6xl font-bold text-brand-dark max-w-4xl mx-auto leading-tight">
+            Turning waste plastic into valuable chemicals with solar power.
+        </h1>
+        <p class="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
+            Green SynTech builds circular economy solutions in Canada, converting post-consumer polymers into reusable industrial chemicals.
+        </p>
+        <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="#technology" class="px-8 py-4 bg-brand-green text-white rounded-lg font-bold hover:bg-brand-dark transition-colors">See our technology</a>
+            <a href="#contact" class="px-8 py-4 bg-white text-brand-dark border border-gray-200 rounded-lg font-bold hover:border-brand-green transition-colors">Get in touch</a>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="mission" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+                <h2 class="text-brand-green font-semibold tracking-wide uppercase mb-2">Mission &amp; Solution</h2>
+                <h3 class="text-4xl font-bold text-brand-dark mb-6">Promoting a Circular Economy in Canada.</h3>
+                
+                <div class="mb-8">
+                    <h4 class="text-xl font-bold text-brand-dark mb-2"><i class="fa-solid fa-triangle-exclamation text-amber-500 mr-2"></i> The Problem</h4>
+                    <p class="text-gray-600 leading-relaxed">
+                        Growing volumes of single-use plastic waste and unsustainable disposal into landfills. Currently, it is estimated that <strong>less than 11% of plastic is recycled in Canada</strong>. High costs associated with collecting and repurposing disincentivize sustainable operations.
+                    </p>
+                </div>
+
+                <div class="mb-8">
+                    <h4 class="text-xl font-bold text-brand-dark mb-2"><i class="fa-solid fa-lightbulb text-brand-green mr-2"></i> The Solution</h4>
+                    <p class="text-gray-600 leading-relaxed">
+                        We provide a circular economy solution of converting waste into chemicals using solar power. Be part of a sustainable solution to the growing pollution concern and valorize renewable energy and waste polymers for a thriving economy.
+                    </p>
+                </div>
+                
+                <div class="border-l-4 border-brand-green pl-6 py-2 mb-8 bg-brand-light/50 rounded-r-lg">
+                    <p class="text-lg font-medium text-brand-dark italic">
+                        "Find an alternative sink for waste plastics using renewable energy to overall reduce the costs associated with recycling."
+                    </p>
+                </div>
+            </div>
+            
+            <div id="team" class="bg-brand-light rounded-3xl p-8 shadow-sm border border-gray-100">
+                <h4 class="text-2xl font-bold text-brand-dark mb-8 flex items-center gap-3">
+                    <i class="fa-solid fa-users text-brand-green"></i> Management Team
+                </h4>
+                <div class="space-y-6">
+                    <!-- Team Member 1 -->
+                    <div class="flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm">
+                        <div class="w-14 h-14 bg-gray-200 rounded-full flex items-center justify-center text-xl text-gray-500 font-bold overflow-hidden shrink-0">
+                            LD
+                        </div>
+                        <div>
+                            <h5 class="text-lg font-bold text-brand-dark">Dr. Lawrence D'Souza</h5>
+                            <p class="text-brand-green font-medium text-sm">Chief Executive Officer - CEO</p>
+                            <p class="text-xs text-gray-500 mt-1">23+ years of R&amp;D in Oil &amp; Gas and Petrochemicals, Inventor of 11+ patents</p>
+                        </div>
+                    </div>
+                    <!-- Team Member 2 -->
+                    <div class="flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm">
+                        <div class="w-14 h-14 bg-gray-200 rounded-full flex items-center justify-center text-xl text-gray-500 font-bold overflow-hidden shrink-0">
+                            AS
+                        </div>
+                        <div>
+                            <h5 class="text-lg font-bold text-brand-dark">Mr. Abdul Aleem Syed</h5>
+                            <p class="text-brand-green font-medium text-sm">Chief Operating Officer - COO</p>
+                            <p class="text-xs text-gray-500 mt-1">28+ years experience in Managing IT Firm, Founder and CEO of a Real Estate Business</p>
+                        </div>
+                    </div>
+                    <!-- Team Member 3 -->
+                    <div class="flex items-center gap-4 bg-white p-4 rounded-xl shadow-sm">
+                        <div class="w-14 h-14 bg-gray-200 rounded-full flex items-center justify-center text-xl text-gray-500 font-bold overflow-hidden shrink-0">
+                            JS
+                        </div>
+                        <div>
+                            <h5 class="text-lg font-bold text-brand-dark">Mr. Jalaj Sharma</h5>
+                            <p class="text-brand-green font-medium text-sm">Chief Business Development Officer - CBDO</p>
+                            <p class="text-xs text-gray-500 mt-1">15+ years experience in C-Suite Operation management roles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Technology Section -->
+<section id="technology" class="py-24 bg-brand-dark text-white relative overflow-hidden">
+    <!-- Abstract background elements -->
+    <div class="absolute top-0 right-0 w-96 h-96 bg-brand-green/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-brand-green/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-brand-green font-semibold tracking-wide uppercase mb-2">Our Technology</h2>
+            <h3 class="text-4xl font-bold mb-6">Innovative Plastic Pyrolysis</h3>
+            <p class="text-gray-400 text-lg">
+                Transforming post-consumer and off-spec polymer products into value-added chemicals via an energy-efficient, solar-driven process.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <!-- Step 1 -->
+            <div class="bg-white/5 border border-white/10 p-8 rounded-2xl backdrop-blur-sm hover:bg-white/10 transition-colors">
+                <div class="w-16 h-16 bg-brand-green/20 rounded-xl flex items-center justify-center mb-6 text-brand-green text-3xl">
+                    <i class="fa-solid fa-sun"></i>
+                </div>
+                <h4 class="text-xl font-bold mb-4">Solar Photovoltaics</h4>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    Energy harvesting through solar PV arrays minimizes grid reliance. Valorizing solar energy drives the endothermic pyrolysis reactions sustainably and cost-effectively.
+                </p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="bg-white/5 border border-white/10 p-8 rounded-2xl backdrop-blur-sm hover:bg-white/10 transition-colors relative mt-0 md:mt-8">
+                <div class="w-16 h-16 bg-brand-green/20 rounded-xl flex items-center justify-center mb-6 text-brand-green text-3xl">
+                    <i class="fa-solid fa-industry"></i>
+                </div>
+                <h4 class="text-xl font-bold mb-4">Catalytic Pyrolysis Plant</h4>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    Features a rotary kiln and advanced distillation sections. We adapt game-changing, inexpensive catalysts for highly selective product yields and increased efficiency.
+                </p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="bg-white/5 border border-white/10 p-8 rounded-2xl backdrop-blur-sm hover:bg-white/10 transition-colors">
+                <div class="w-16 h-16 bg-brand-green/20 rounded-xl flex items-center justify-center mb-6 text-brand-green text-3xl">
+                    <i class="fa-solid fa-recycle"></i>
+                </div>
+                <h4 class="text-xl font-bold mb-4">Value-Added Outputs</h4>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    <strong>Input:</strong> Polystyrene.<br>
+                    <strong>Outputs:</strong> Styrene, Benzene, Toluene, and Carbon Black ready for industrial reuse.
+                </p>
+            </div>
+        </div>
+
+        <!-- Performance Metric -->
+        <div class="bg-gradient-to-r from-brand-green to-emerald-600 rounded-3xl p-10 text-center shadow-2xl relative overflow-hidden">
+            <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+                <div class="text-left max-w-2xl">
+                    <h4 class="text-3xl font-bold text-white mb-4">Key Differentiators</h4>
+                    <div class="space-y-4 text-emerald-50">
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-check-circle mt-1"></i>
+                            <div>
+                                <strong class="text-white">Renewable Energy Based:</strong> Highly energy efficient due to integrated Solar Photovoltaic power.
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-check-circle mt-1"></i>
+                            <div>
+                                <strong class="text-white">Advanced Catalytic Method:</strong> Delivers a narrow product range with competitive economics and drastic GHG reduction compared to known processes.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center justify-center bg-white/20 p-6 rounded-2xl border border-white/30 backdrop-blur-md shrink-0">
+                    <i class="fa-solid fa-leaf text-5xl text-white mb-2"></i>
+                    <span class="text-emerald-100 font-medium text-center leading-tight">Eco-Friendly<br>Economics</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-24 bg-brand-light relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            <div>
+                <h2 class="text-brand-green font-semibold tracking-wide uppercase mb-2">Get in Touch</h2>
+                <h3 class="text-4xl font-bold text-brand-dark mb-6">Partner for a Greener Future.</h3>
+                <p class="text-gray-600 mb-8 text-lg">
+                    Interested in our technology, investment opportunities, or learning more about our jet fuel synthesis feedstock? Contact our team in Ontario today.
+                </p>
+                
+                <div class="space-y-6">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-white rounded-lg shadow-sm flex items-center justify-center text-brand-green shrink-0">
+                            <i class="fa-solid fa-location-dot text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-bold text-brand-dark">Headquarters</h4>
+                            <p class="text-gray-600">Ontario, Canada</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-white rounded-lg shadow-sm flex items-center justify-center text-brand-green shrink-0">
+                            <i class="fa-solid fa-envelope text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-bold text-brand-dark">Email Us</h4>
+                            <p><a href="mailto:GreenSynTech@gmail.com" class="text-gray-600 hover:text-brand-green underline">GreenSynTech@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl shadow-xl shadow-gray-200/50 border border-gray-100">
+                <form id="contactForm" class="space-y-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label for="firstName" class="block text-sm font-medium text-gray-700 mb-2">First Name</label>
+                            <input type="text" id="firstName" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-brand-green focus:ring-2 focus:ring-brand-green/20 outline-none transition-all" placeholder="Jane" required>
+                        </div>
+                        <div>
+                            <label for="lastName" class="block text-sm font-medium text-gray-700 mb-2">Last Name</label>
+                            <input type="text" id="lastName" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-brand-green focus:ring-2 focus:ring-brand-green/20 outline-none transition-all" placeholder="Doe" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                        <input type="email" id="email" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-brand-green focus:ring-2 focus:ring-brand-green/20 outline-none transition-all" placeholder="jane@company.com" required>
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                        <textarea id="message" rows="4" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-brand-green focus:ring-2 focus:ring-brand-green/20 outline-none transition-all resize-none" placeholder="How can we collaborate?" required></textarea>
+                    </div>
+                    <button type="submit" class="w-full py-4 bg-brand-dark hover:bg-black text-white rounded-lg font-bold text-lg transition-colors shadow-lg">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-white border-t border-gray-200 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="flex items-center gap-2">
+            <img src="GST_logo_3.png" alt="Green SynTech Logo" class="h-14 w-auto object-contain bg-white rounded p-1">
+            <span class="font-bold text-xl text-brand-dark">Green<span class="text-brand-green">SynTech</span></span>
+        </div>
+        <p class="text-gray-500 text-sm text-center md:text-left">
+            &copy; 2026 Green SynTech. All rights reserved. Ontario, Canada.
+        </p>
+        <div class="flex gap-4">
+            <a href="#" aria-label="LinkedIn" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-brand-green hover:text-white transition-colors">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="#" aria-label="Twitter" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-brand-green hover:text-white transition-colors">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Smooth scrolling for in-page links (skips bare "#" placeholders)
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            const id = this.getAttribute('href');
+            if (id.length < 2) return;
+            const target = document.querySelector(id);
+            if (!target) return;
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth' });
+            document.getElementById('mobileMenu').classList.add('hidden');
+        });
+    });
+
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn.addEventListener('click', () => {
+        const open = mobileMenu.classList.toggle('hidden') === false;
+        menuBtn.setAttribute('aria-expanded', String(open));
+    });
+
+    // Contact form: opens the visitor's email app with the message pre-filled.
+    // (Replace with a real backend / form service such as Formspree if preferred.)
+    const form = document.getElementById('contactForm');
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = `${form.firstName.value} ${form.lastName.value}`.trim();
+        const body = `${form.message.value}\n\n${name}\n${form.email.value}`;
+        window.location.href = `mailto:GreenSynTech@gmail.com?subject=${encodeURIComponent('Website enquiry from ' + name)}&body=${encodeURIComponent(body)}`;
+
+        const btn = form.querySelector('button[type="submit"]');
+        const originalText = btn.innerText;
+        btn.innerText = 'Opening your email app...';
+        btn.classList.add('bg-brand-green');
+        btn.classList.remove('bg-brand-dark', 'hover:bg-black');
+        setTimeout(() => {
+            btn.innerText = originalText;
+            btn.classList.remove('bg-brand-green');
+            btn.classList.add('bg-brand-dark', 'hover:bg-black');
+            form.reset();
+        }, 3000);
+    });
+</script>
+</body>
+</html>
